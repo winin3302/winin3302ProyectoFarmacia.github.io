@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <title>Proyecto 3er Parcial</title>
+     <style>
+         body{color:black; background-color: greenyellow;}
+     </style>
   </head>
   
   <body class="bg-dark">
     <div class="card">
         <fieldset>
-            <legend>¡Hola!</legend>
+            <legend>¡Hola bienvenido!</legend>
             <output id="userDisplay"></output>
         </fieldset>
-        <button id="btn-logout-google" class="btn btn-danger">Cerrar sesión con Google</button>
+        <button id="btn-logout-google" class="btn btn-danger">Cerrar la sesión con Google</button>
     </div>
     <div class="container p-4 mt-4 card">
       <h2>Chat</h2>
@@ -20,14 +23,14 @@
       <div id="chat-container" class="mb-3"></div>
     <form id="chat-form">
       <div class="form-group">
-        <label for="username">Tu nombre:</label>
+        <label for="username">Ingresa tu nombre:</label><br>
         <input type="text" id="username" class="form-control mb-3">
-      </div>
+      </div><br><br>
       <div class="form-group">
-        <label for="message">Mensaje:</label>
+        <label for="message">Esribe un mensaje:</label><br>
         <input type="text" id="message" class="form-control mb-3" required>
       </div>
-      <br>
+      <br><br>
       <button type="submit" class="btn btn-primary">Enviar mensaje</button>
     </form>
   </div>
@@ -39,16 +42,16 @@
         <div class="col-md-6">
           <div class="card">
             <div class="card-body">
-              <h1 class="h4">Agrega nuevo:</h1>
+              <h1 class="h4">Agrega un medicamento nuevo:</h1>
 
               <form id="task-form">
-                <label for="title">Nombre:</label><br>
+                <label for="title">Nombre del medicamento:</label><br>
                 <input type="text" id="task-title" class="form-control mb-3" placeholder="Medicamento" required autofocus/><br>
                 <label for="date">Fecha de caducidad:</label><br>
                 <input type="date" id="task-date" class="form-control mb-3" required autofocus/><br>
-                <label for="magnitud">Costo</label><br>
+                <label for="magnitud">Costo:</label><br>
                 <input type="number" step="0.1" min="1.0" max="1000" id="task-magnitud" class="form-control mb-3" required autofocus/><br>
-                <br><label for="type">Tipo:</label><br>
+                <br><label for="type">Tipo (Jarabe, suspension, tabletas, etc):</label><br>
                 <input type="text" id="task-type" class="form-control mb-3" required autofocus/><br><br>
 
                 <label for="description">Descripción:</label><br<br>
