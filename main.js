@@ -23,7 +23,7 @@ import {
     try {
       await signOut(auth);
       window.location.href = "/winin3302ProyectoFarmacia.github.io";
-      alert("¡Hasta luego!")
+      alert("¡Gracias por su trabajo, adios!")
       // El usuario ha cerrado sesión correctamente.
       // Puedes realizar acciones adicionales aquí, como redirigir a una página después del cierre de sesión.
     } catch (error) {
